@@ -79,7 +79,7 @@ export const ValidDynamicText = ({
               onBlur={() => setIsFocused(null)}
             />
             {values.length > 1 && !isDisabled && (
-              <Button onClick={() => removeField(index)} appearance="link">
+              <Button onClick={() => removeField(index)} appearance="link" className={"remove-btn"}>
                 <span className={"icon fa-icon-trash"} />
               </Button>
             )}
